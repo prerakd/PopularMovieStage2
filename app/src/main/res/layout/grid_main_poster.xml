@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:clickable="false"
+             android:focusable="false"
+             android:focusableInTouchMode="false">
+
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/default_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/ic_favorite_border_black_24dp"
+    android:background="#9cffffff"
+    android:cropToPadding="true"
+    android:padding="4dp"
+    android:id="@+id/poster_favourite"
+    android:layout_gravity="top|right"/>
+
+
+
+
+</FrameLayout>
